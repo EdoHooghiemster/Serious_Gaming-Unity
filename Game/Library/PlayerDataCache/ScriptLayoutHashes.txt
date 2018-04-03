@@ -153,3 +153,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 445448213c222227e664a93d53040333 Assembly-CSharp.dll:.WordTimer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.WordGenerator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
+0df0f10199b22eac11c9aefc61430370 Assembly-CSharp.dll:.To_GameOver
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.boi
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Game_over
