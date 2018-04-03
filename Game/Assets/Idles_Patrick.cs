@@ -12,7 +12,7 @@ public class Idles_Patrick : MonoBehaviour {
 	void Update () {
         Renderer rend = gameObject.GetComponent<Renderer>();
 
-        if (NewBehaviourScript.scorewaarde >= 100)
+        if (NewBehaviourScript.scorewaarde >= 130)
         {
             rend.enabled = false;
         }
