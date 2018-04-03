@@ -16,27 +16,27 @@ public class dialogue : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (NewBehaviourScript.scorewaarde == 0)
+        if (NewBehaviourScript.scorewaarde >= 0)
         {
             dialoguetext.text = "I better type the words fast!";
         }
-        if (NewBehaviourScript.scorewaarde == 30)
+        if (NewBehaviourScript.scorewaarde >= 30)
         {
             dialoguetext.text = "I can't understand anything.";
         }
-        if (NewBehaviourScript.scorewaarde == 80 )
+        if (NewBehaviourScript.scorewaarde >= 80 )
         {
             dialoguetext.text = "Have I ever not been right?";
         }
-        if ( NewBehaviourScript.scorewaarde == 130)
+        if ( NewBehaviourScript.scorewaarde >= 130)
         {
         dialoguetext.text = "Now that we're men, I changed my underwear.";
         }
-        if (NewBehaviourScript.scorewaarde == 180)
+        if (NewBehaviourScript.scorewaarde >= 180)
         {
             dialoguetext.text = "I can't see my forehead";
         }
-        if (NewBehaviourScript.scorewaarde == 250)
+        if (NewBehaviourScript.scorewaarde >= 250)
         {
             dialoguetext.text = "I can feel my IQ Rising";
         }

@@ -37,7 +37,7 @@ public class WordDisplay : MonoBehaviour {
         if (NewBehaviourScript.scorewaarde >= 250)
         {
             fallSpeed = 1.15f;
-            Application.LoadLevel(Application.loadedLevel);
+           
             transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
         }
         if (transform.position.y <= -4.3)
