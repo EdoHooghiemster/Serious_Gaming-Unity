@@ -34,7 +34,7 @@ public class WordDisplay : MonoBehaviour {
 	private void Update()
 	{
 		transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
-        if (NewBehaviourScript.scorewaarde >= 10)
+        if (NewBehaviourScript.scorewaarde >= 100)
         {
             fallSpeed = 1.15f;
             transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
